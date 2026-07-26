@@ -1,23 +1,29 @@
 # FT8CN RDA packs
 
-Offline GeoJSON packs for Russian District Award (RDA) lookup in FT8CN-RN3AOE.
+Offline GeoJSON packs for Russian District Award (RDA) lookup in **FT8CN-RN3AOE**.
 
-## Catalog
+## For the app
 
-- [`catalog.json`](catalog.json) — pack list with size, SHA-256, download paths
-- [`packs/`](packs/) — GeoJSON (`rda_code` per feature)
+- [`catalog.json`](catalog.json) — pack list (size, SHA-256, paths)
+- [`packs/`](packs/) — GeoJSON features with `rda_code`
 
-Built-in APK pack: Moscow + Moscow Oblast (`mo_moscow`). App allows max **3** additional downloads.
-
-Default catalog URL:
+Catalog URL used by the app:
 
 `https://cdn.jsdelivr.net/gh/cure76/ft8cn-rda-packs@main/catalog.json`
 
-## Publish
+Built-in in APK: Moscow + Moscow Oblast (`mo_moscow`). Max **3** additional downloads.
 
-From the FT8CN repo:
+## For pack authors
+
+Preparation scripts live in [`tools/`](tools/):
 
 ```bash
-python tools/rda/publish_catalog.py --packs-dir ../ft8cn-rda-packs \
-  --base-url 'https://cdn.jsdelivr.net/gh/cure76/ft8cn-rda-packs@main/'
+cd tools
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python prepare_sm_smolensk.py
+cp out/sm_smolensk.geojson ../packs/
+python publish_catalog.py
 ```
+
+See [`tools/README.md`](tools/README.md).

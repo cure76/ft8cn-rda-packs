@@ -1,0 +1,4 @@
+# RDA pack preparation (Moscow + Moscow Oblast pilot)
+requests>=2.31.0
+osm2geojson>=0.2.5
+shapely>=2.0.0
