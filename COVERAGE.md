@@ -1,6 +1,6 @@
 # RDA coverage digest
 
-Source catalog: `cure76/ft8cn-rda-packs` — 4 packs.
+Source catalog: `cure76/ft8cn-rda-packs` — 5 packs.
 
 ## Summary
 
@@ -10,7 +10,8 @@ Source catalog: `cure76/ft8cn-rda-packs` — 4 packs.
 | `mo_moscow` | Moscow + Moscow Oblast | MA, MO | **69** | 69 | **0** |
 | `sm_smolensk` | Smolensk Oblast | SM | **29** | 29 | **0** |
 | `tl_tula` | Tula Oblast | TL | **23** | 29 | **6** |
-| **Total** | | | **146** | 155 | **9** |
+| `vl_vladimir` | Vladimir Oblast | VL | **19** | 23 | **4** |
+| **Total** | | | **165** | 178 | **13** |
 
 ## Kaluga Oblast (`kg_kaluga`)
 
@@ -221,9 +222,47 @@ Coverage: **23 / 29** (79.3%).
 | TL-05 | CENTRALNY DISTRICT of TULA |
 | TL-27 | LENINSKY AREA |
 
+## Vladimir Oblast (`vl_vladimir`)
+
+Coverage: **19 / 23** (82.6%).
+
+### Covered
+
+| Code | Name (OSM / pack) | Official RDA name |
+|------|-------------------|-------------------|
+| VL-06 | городской округ Гусь-Хрустальный | GUS-KHRUSTALNY |
+| VL-07 | городской округ Ковров | KOVROV |
+| VL-09 | городской округ Муром | MUROM |
+| VL-12 | ЗАТО Радужный | RADUZHNY |
+| VL-13 | Александровский муниципальный округ | ALEKSANDROVSKY AREA / incl. ALEXANDROV, KARABANOVO, STRUNINO/ |
+| VL-14 | Вязниковский район | VYAZNIKOVSKY AREA /incl. of VYAZNIKI/ |
+| VL-15 | Гороховецкий муниципальный округ | GOROKHOVETSKY AREA / incl. GOROHOVETs/ |
+| VL-16 | Гусь-Хрустальный муниципальный округ | GUS-KHRUSTALNY AREA |
+| VL-17 | Камешковский муниципальный округ | KAMESHKOVSKY AREA / incl. KAMEShKOVO/ |
+| VL-18 | Киржачский муниципальный округ | KIRZHACHSKY AREA / incl. KIRZHACH / |
+| VL-19 | Ковровский район | KOVROVSKY AREA |
+| VL-20 | Кольчугинский муниципальный округ | KOLCHUGINSKY AREA / incl. KOLChUGINO/ |
+| VL-21 | Меленковский муниципальный округ | MELENKOVSKY AREA / incl. MELENKI/ |
+| VL-23 | Петушинский муниципальный округ (+ Покров) | PETUSHINSKY AREA / incl. PETUSHKI, KOSTEREVO, POKROV / |
+| VL-24 | Селивановский муниципальный округ | SELIVANOVSKY AREA |
+| VL-25 | Собинский муниципальный округ | SOBINSKY AREA / incl. SOBINKA, LAKINSK/ |
+| VL-26 | Судогодский муниципальный округ | SUDOGODSKY AREA / incl. SUDOGDA/ |
+| VL-27 | Суздальский район | SUZDALSKY AREA / incl. SUZDAL / |
+| VL-28 | Юрьев-Польский муниципальный округ | YuREV-POLSKIY AREA / incl. YuREV-POLSKIY/ |
+
+### Missing (not in pack)
+
+| Code | Official RDA name |
+|------|-------------------|
+| VL-01 | LENINSKY DISTRICT of VLADIMIR |
+| VL-02 | OKTYABRSKY DISTRICT of VLADIMIR |
+| VL-03 | FRUNZENSKY DISTRICT of VLADIMIR |
+| VL-22 | MUROMSKY AREA |
+
 ## Notes
 
 - **Kaluga**: missing KG-01..03 — city rayons not in OSM.
 - **Tula**: missing TL-01..05 (city districts) and TL-27 (Leninsky area not in OSM AL6).
+- **Vladimir**: missing VL-01..03 (city districts) and VL-22 (Muromsky not in OSM AL6; city Murom is VL-09). Pokrov urban okrug mapped to VL-23.
 - Official list: rdaward.org `rda_eng.txt` (active only).
 - Builtin in APK: `mo_moscow` only.

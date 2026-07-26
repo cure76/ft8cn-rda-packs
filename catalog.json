@@ -55,6 +55,19 @@
       "sha256": "85c76428cbd81d5a56b2715302310363fa1035626eee671b86308059c4866364",
       "pack_version": 1,
       "builtin_in_apk": false
+    },
+    {
+      "id": "vl_vladimir",
+      "name": "Vladimir Oblast",
+      "file": "packs/vl_vladimir.geojson",
+      "codes_prefix": [
+        "VL"
+      ],
+      "feature_count": 20,
+      "bytes": 298301,
+      "sha256": "0af740effced3992c4d68f197524aad6cb280fccbbd5600e46cfa89a638f7d7d",
+      "pack_version": 1,
+      "builtin_in_apk": false
     }
   ]
 }

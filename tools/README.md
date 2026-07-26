@@ -19,6 +19,7 @@ pip install -r requirements.txt
 | `sm_smolensk` | SM-* | `prepare_sm_smolensk.py` |
 | `kg_kaluga` | KG-* | `prepare_kg_kaluga.py` |
 | `tl_tula` | TL-* | `prepare_tl_tula.py` |
+| `vl_vladimir` | VL-* | `prepare_vl_vladimir.py` |
 
 ## Workflow
 
@@ -28,6 +29,7 @@ python prepare_rda_pack.py
 python prepare_sm_smolensk.py
 python prepare_kg_kaluga.py
 python prepare_tl_tula.py
+python prepare_vl_vladimir.py
 
 # 2) Install into repo packs/ and refresh catalog
 cp out/mo_moscow.geojson out/sm_smolensk.geojson ../packs/

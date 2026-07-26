@@ -28,6 +28,11 @@ DEFAULT_META = {
         "codes_prefix": ["TL"],
         "builtin_in_apk": False,
     },
+    "vl_vladimir": {
+        "name": "Vladimir Oblast",
+        "codes_prefix": ["VL"],
+        "builtin_in_apk": False,
+    },
 }
 
 
