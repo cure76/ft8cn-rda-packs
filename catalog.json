@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "base_url": "https://raw.githubusercontent.com/cure76/ft8cn-rda-packs/main/",
+  "max_downloaded_packs": 3,
+  "packs": [
+    {
+      "id": "mo_moscow",
+      "name": "Moscow + Moscow Oblast",
+      "file": "packs/mo_moscow.geojson",
+      "codes_prefix": [
+        "MA",
+        "MO"
+      ],
+      "feature_count": 69,
+      "bytes": 928509,
+      "sha256": "fa9cd132deb80297a2bd6a62ff8c7a1ff59ba29e40c429de8099bdc7f1bc3366",
+      "pack_version": 1,
+      "builtin_in_apk": true
+    },
+    {
+      "id": "sm_smolensk",
+      "name": "Smolensk Oblast",
+      "file": "packs/sm_smolensk.geojson",
+      "codes_prefix": [
+        "SM"
+      ],
+      "feature_count": 29,
+      "bytes": 553255,
+      "sha256": "6fd7d167844ddca4eaa20171d31041702954d48985033bd3566b5e73839d749b",
+      "pack_version": 1,
+      "builtin_in_apk": false
+    }
+  ]
+}
