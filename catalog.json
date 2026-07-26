@@ -42,6 +42,19 @@
       "sha256": "6fd7d167844ddca4eaa20171d31041702954d48985033bd3566b5e73839d749b",
       "pack_version": 1,
       "builtin_in_apk": false
+    },
+    {
+      "id": "tl_tula",
+      "name": "Tula Oblast",
+      "file": "packs/tl_tula.geojson",
+      "codes_prefix": [
+        "TL"
+      ],
+      "feature_count": 25,
+      "bytes": 335314,
+      "sha256": "85c76428cbd81d5a56b2715302310363fa1035626eee671b86308059c4866364",
+      "pack_version": 1,
+      "builtin_in_apk": false
     }
   ]
 }

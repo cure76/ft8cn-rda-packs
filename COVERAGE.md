@@ -1,6 +1,6 @@
 # RDA coverage digest
 
-Source catalog: `cure76/ft8cn-rda-packs` — 3 packs.
+Source catalog: `cure76/ft8cn-rda-packs` — 4 packs.
 
 ## Summary
 
@@ -9,7 +9,8 @@ Source catalog: `cure76/ft8cn-rda-packs` — 3 packs.
 | `kg_kaluga` | Kaluga Oblast | KG | **25** | 28 | **3** |
 | `mo_moscow` | Moscow + Moscow Oblast | MA, MO | **69** | 69 | **0** |
 | `sm_smolensk` | Smolensk Oblast | SM | **29** | 29 | **0** |
-| **Total** | | | **123** | 126 | **3** |
+| `tl_tula` | Tula Oblast | TL | **23** | 29 | **6** |
+| **Total** | | | **146** | 155 | **9** |
 
 ## Kaluga Oblast (`kg_kaluga`)
 
@@ -177,8 +178,52 @@ Coverage: **29 / 29** (100.0%).
 
 _None — full coverage of active codes._
 
+## Tula Oblast (`tl_tula`)
+
+Coverage: **23 / 29** (79.3%).
+
+### Covered
+
+| Code | Name (OSM / pack) | Official RDA name |
+|------|-------------------|-------------------|
+| TL-08 | DONSKOY / incl. SEVERO-ZADONSK/ | DONSKOY / incl. SEVERO-ZADONSK/ |
+| TL-11 | CITY DISTRICT NOVOMOSKOVSK | CITY DISTRICT NOVOMOSKOVSK |
+| TL-14 | ALEKSINSKY AREA /incl. ALEKSIN, NOVOGUROVSKY / | ALEKSINSKY AREA /incl. ALEKSIN, NOVOGUROVSKY / |
+| TL-15 | ARSENYEVSKY AREA /incl. SLAVNY / | ARSENYEVSKY AREA /incl. SLAVNY / |
+| TL-16 | BELEVSKY AREA / incl. BELEV/ | BELEVSKY AREA / incl. BELEV/ |
+| TL-17 | BOGORODITSKY AREA / incl. BOGORODITsK/ | BOGORODITSKY AREA / incl. BOGORODITsK/ |
+| TL-18 | VENEVSKY AREA / incl. VENEV/ | VENEVSKY AREA / incl. VENEV/ |
+| TL-19 | VOLOVSKY AREA | VOLOVSKY AREA |
+| TL-20 | DUBENSKII AREA | DUBENSKII AREA |
+| TL-21 | CITY EFREMOV | CITY EFREMOV |
+| TL-22 | ZAOKSKY AREA | ZAOKSKY AREA |
+| TL-23 | KAMENSKY AREA | KAMENSKY AREA |
+| TL-24 | KIMOVSKY AREA / incl. KIMOVSK/ | KIMOVSKY AREA / incl. KIMOVSK/ |
+| TL-25 | KIREEVSKY AREA / incl. KIREEVSK, BOLOHOVO, LIPKI / | KIREEVSKY AREA / incl. KIREEVSK, BOLOHOVO, LIPKI / |
+| TL-26 | KURKINSKY AREA | KURKINSKY AREA |
+| TL-29 | ODOEVSKY AREA | ODOEVSKY AREA |
+| TL-30 | PLAVSKY AREA / incl. PLAVSK/ | PLAVSKY AREA / incl. PLAVSK/ |
+| TL-31 | SUVOROVSKY AREA / incl. SUVOROV, ChEKALIN/ | SUVOROVSKY AREA / incl. SUVOROV, ChEKALIN/ |
+| TL-32 | TEPLO-OGAREVSKY AREA | TEPLO-OGAREVSKY AREA |
+| TL-33 | UZLOVSKY AREA / incl. UZLOVAYA / | UZLOVSKY AREA / incl. UZLOVAYA / |
+| TL-34 | CHERNENSKY AREA | CHERNENSKY AREA |
+| TL-35 | SHCHEKINSKY AREA / incl. ShchEKINO, SOVETSK/ | SHCHEKINSKY AREA / incl. ShchEKINO, SOVETSK/ |
+| TL-36 | YASNOGORSKY AREA / incl. YaSNOGORSK/ | YASNOGORSKY AREA / incl. YaSNOGORSK/ |
+
+### Missing (not in pack)
+
+| Code | Official RDA name |
+|------|-------------------|
+| TL-01 | ZARECHNY DISTRICT of TULA |
+| TL-02 | PRIVOKZAL`NY DISTRICT of TULA |
+| TL-03 | PROLETARSKY DISTRICT of TULA |
+| TL-04 | SOVIETSKY DISTRICT of TULA |
+| TL-05 | CENTRALNY DISTRICT of TULA |
+| TL-27 | LENINSKY AREA |
+
 ## Notes
 
-- **Kaluga (`kg_kaluga`)**: missing KG-01..03 — Kaluga city rayons are not mapped as separate OSM admin polygons (city is a single urban okrug).
-- Official list: rdaward.org `rda_eng.txt` (active codes only; deleted skipped).
-- Builtin in APK: `mo_moscow` only; others are downloadable.
+- **Kaluga**: missing KG-01..03 — city rayons not in OSM.
+- **Tula**: missing TL-01..05 (city districts) and TL-27 (Leninsky area not in OSM AL6).
+- Official list: rdaward.org `rda_eng.txt` (active only).
+- Builtin in APK: `mo_moscow` only.

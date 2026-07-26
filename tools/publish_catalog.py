@@ -23,6 +23,11 @@ DEFAULT_META = {
         "codes_prefix": ["KG"],
         "builtin_in_apk": False,
     },
+    "tl_tula": {
+        "name": "Tula Oblast",
+        "codes_prefix": ["TL"],
+        "builtin_in_apk": False,
+    },
 }
 
 
