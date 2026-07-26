@@ -4,6 +4,19 @@
   "max_downloaded_packs": 3,
   "packs": [
     {
+      "id": "kg_kaluga",
+      "name": "Kaluga Oblast",
+      "file": "packs/kg_kaluga.geojson",
+      "codes_prefix": [
+        "KG"
+      ],
+      "feature_count": 25,
+      "bytes": 463473,
+      "sha256": "cdbb612270abb7799b70d08da6566a1655395d7cbb403f561eba46b7fd97de40",
+      "pack_version": 1,
+      "builtin_in_apk": false
+    },
+    {
       "id": "mo_moscow",
       "name": "Moscow + Moscow Oblast",
       "file": "packs/mo_moscow.geojson",

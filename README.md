@@ -21,8 +21,8 @@ Preparation scripts live in [`tools/`](tools/):
 cd tools
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-python prepare_sm_smolensk.py
-cp out/sm_smolensk.geojson ../packs/
+python prepare_kg_kaluga.py
+cp out/kg_kaluga.geojson ../packs/
 python publish_catalog.py
 ```
 

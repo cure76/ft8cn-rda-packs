@@ -18,6 +18,11 @@ DEFAULT_META = {
         "codes_prefix": ["SM"],
         "builtin_in_apk": False,
     },
+    "kg_kaluga": {
+        "name": "Kaluga Oblast",
+        "codes_prefix": ["KG"],
+        "builtin_in_apk": False,
+    },
 }
 
 
