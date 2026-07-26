@@ -46,7 +46,7 @@ def main() -> None:
     )
     ap.add_argument(
         "--base-url",
-        default="https://cdn.jsdelivr.net/gh/cure76/ft8cn-rda-packs@main/",
+        default="https://raw.githubusercontent.com/cure76/ft8cn-rda-packs/main/",
         help="HTTPS base URL ending with /",
     )
     ap.add_argument("--max-downloaded", type=int, default=3)
